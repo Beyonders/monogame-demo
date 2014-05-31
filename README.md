@@ -26,10 +26,12 @@ Install dependencies:
 	sudo apt-get install wine
 	wget http://winetricks.org/winetricks
 	chmod +x winetricks 
-
+ 
 Create wine environment:
 
 	bash winetricks -q dotnet40 corefonts
+	wget http://www.monogame.net/releases/MonoGame-2.5.1.0.exe
+	wine MonoGame-2.5.1.0.exe 
 
 Run build tool:
 
